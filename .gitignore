@@ -1,3 +1,20 @@
+out/
+target/
+.idea/
+*.iml
+/**/.iml
+/**/.DS_Store
+/**/.settings/
+/**/.project
+/**/.classpath
+**/rebel.xml
+/**/.externalToolBuilders/
+/**/.yml
+application.properties
+.gitignore
+rebel.xml
+test/
+
 # Compiled class file
 *.class
 
@@ -18,6 +35,9 @@
 *.zip
 *.tar.gz
 *.rar
+
+
+
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
