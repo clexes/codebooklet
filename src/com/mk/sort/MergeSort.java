@@ -3,7 +3,7 @@ package com.mk.sort;
 /**
  * 归并排序
  */
-public class MergeSort {
+public class  MergeSort {
 
     public static void SortBy(int[] arr){
 //        sort(arr,0,arr.length-1);
