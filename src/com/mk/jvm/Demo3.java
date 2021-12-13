@@ -1,8 +1,8 @@
-package com.mk.reflection;
+package com.mk.jvm;
 
 public class Demo3 {
 
-    // 一个有意思的Java编译器，\u000d 为换行符，编译器在识别时直接进行换行
+    // 一个有意思的Java编译器问题
     public static void main(String[] args) {
         String a = "hello";
         // \u000d a = "word";
