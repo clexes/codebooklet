@@ -2,6 +2,9 @@ package com.mk.sort;
 
 import java.util.Arrays;
 
+/**
+ * 快速排序
+ */
 public class QuickSort {
 
     public static void main(String[] args) {
@@ -14,6 +17,13 @@ public class QuickSort {
         int temp = nums[i];
         nums[i] = nums[j];
         nums[j] = temp;
+    }
+
+    private static int[] sort(int[] nums){
+        if (nums == null || nums.length == 0)
+            return nums;
+        quickSort(nums,0,nums.length - 1);
+        return nums;
     }
 
     private static void quickSort(int[] nums,int left,int right){
@@ -48,6 +58,7 @@ public class QuickSort {
                 // 将小于pivot的值交换到partition左边
                 // 将大于等于pivot的值交换到partition右边
                 partition++;
+
                 swap(nums, partition, i);
             }
         }
@@ -58,18 +69,7 @@ public class QuickSort {
         // 左分区继续排序，右分区继续排序
         quickSort(nums,left, partition-1);
         quickSort(nums,partition+1, right);
-
-
-
     }
-
-    private static int[] sort(int[] nums){
-        if (nums == null || nums.length == 0)
-            return nums;
-        quickSort(nums,0,nums.length - 1);
-        return nums;
-    }
-
 
 
 }

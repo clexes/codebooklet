@@ -1,5 +1,8 @@
-package com.mk.algorithms;
+package com.mk.sort;
 
+/**
+ * 二分查找
+ */
 public class BinarySearch {
 
     public static void main(String[] args) {
