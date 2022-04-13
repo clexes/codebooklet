@@ -13,7 +13,9 @@ public class demo {
 //        ZipContraMultiFile(zipPath,"/Users/mac/Desktop/iop/");
         File file = new File(zipPath);
         unZipFiles(file,"/Users/mac/Desktop/iop/");
-
+        String md5Path = "/Users/mac/Desktop/test.txt";
+        File md5File = new File(md5Path);
+        md5(md5File);
     }
 
     /**
@@ -61,6 +63,9 @@ public class demo {
         System.out.println("解压{}成功" + zipFile.getName());
     }
 
+    public static String md5(File file){
+        return null;
+    }
 
     /*public static void ZipContraMultiFile(String zippath ,String outzippath){
         try {
