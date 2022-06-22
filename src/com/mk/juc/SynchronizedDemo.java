@@ -1,4 +1,4 @@
-package com.mk.base;
+package com.mk.juc;
 
 public class SynchronizedDemo {
     public void method() {

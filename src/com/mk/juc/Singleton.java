@@ -1,4 +1,4 @@
-package com.mk.base;
+package com.mk.juc;
 
 /**
  * 双重检查的单例模式

@@ -1,4 +1,4 @@
-package com.mk.base;
+package com.mk.juc;
 
 import java.lang.management.ManagementFactory;
 import java.lang.management.ThreadInfo;
