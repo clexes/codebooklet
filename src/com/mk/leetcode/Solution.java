@@ -36,12 +36,6 @@ class Solution {
         return pre.next;
     }
 
-    public ListNode fanZh(ListNode l1, ListNode l2) {
-        ListNode node = new ListNode();
-
-        return null;
-    }
-
     // Definition for singly-linked list.
     public static class ListNode {
         int val;
